@@ -2,7 +2,11 @@ group 'com.sunsetFruits'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'war'
+apply plugin: 'application'
+
+mainClassName = "com.sunsetFruits.Main"
+
+
 
 
 sourceCompatibility = 1.8
@@ -10,6 +14,8 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
 }
+
+
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
@@ -38,5 +44,23 @@ dependencies {
     compile 'com.google.code.gson:gson:2.6.2'
     //compile 'org.webjars:bootstrap:3.3.6', //existe un bug que no permite varias rutas, están metiendo mano.
 }
+
+// Create a fat executable jar
+jar {
+    manifest {
+        attributes "Main-Class": "$mainClassName"
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+    archiveName "app.jar"
+}
+
+
+
+
+
 
 
