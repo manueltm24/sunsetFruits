@@ -2,6 +2,8 @@ group 'com.sunsetFruits'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'war'
+
 
 sourceCompatibility = 1.8
 
@@ -17,7 +19,6 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
-sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -37,3 +38,5 @@ dependencies {
     compile 'com.google.code.gson:gson:2.6.2'
     //compile 'org.webjars:bootstrap:3.3.6', //existe un bug que no permite varias rutas, están metiendo mano.
 }
+
+
