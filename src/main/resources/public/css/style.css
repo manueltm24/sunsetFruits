@@ -208,6 +208,10 @@ p {
     color: #888;
 }
 
+.yellowSunsetFruits-color h1, .yellowSunsetFruits-color h2, .yellowSunsetFruits-color h3, .yellowSunsetFruits-color h4, .yellowSunsetFruits-color h5, .yellowSunsetFruits-color h6, .yellowSunsetFruits-color p, .dayellowSunsetFruits-color, .yellowSunsetFruits-color .container-icon {
+    color: #e6ae49;
+}
+
 .light-color h1, .light-color h2, .light-color h3, .light-color h4, .light-color h5, .light-color h6, .light-color p, .light-color, .light-color .container-icon {
     color: #fff;
 }
