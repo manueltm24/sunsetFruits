@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Mazel - Multiprapose Html template</title>
+    <title>Sunset Fruits</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="nileforest">
@@ -34,42 +34,6 @@
     </div>
 </section>
 <!-- End Preloader -->
-
-<!-- Search Overlay Menu -->
-<div class="search-overlay-menu">
-    <span class="search-overlay-close"><i class="ion ion-ios-close-empty"></i></span>
-    <form role="search" id="searchform" action="/search" method="get">
-        <input value="" name="q" type="search" placeholder="Search..." />
-        <button type="submit"><i class="ion ion-ios-search"></i></button>
-    </form>
-</div>
-<!-- End Search Overlay Menu -->
-
-<!-- Sidemenu -->
-<section id="pushmenu-right" class="pushmenu pushmenu-right side-menu">
-    <a id="menu-sidebar-close-icon" class="menu-close"><i class="ion ion-android-close"></i></a>
-    <h5 class="white">Sign In</h5>
-    <div class="sign-in">
-        <input class="input-sm form-full" type="email" aria-required="true" id="email" name="email" placeholder="Email" value="" />
-        <input class="input-sm form-full" type="password" aria-required="true" id="password" name="password" placeholder="Password" value="" />
-        <input type="submit" class="btn btn-md btn-color-b form-full" value="Sign In" />
-        <a>New Customer?</a>
-    </div>
-    <ul>
-        <li><a class="all-demos-link" target="_blank" href="../demo.html">Main Demo Page</a></li>
-        <li><a href="home.html">Home Default</a></li>
-        <li><a href="portfolio-grid-2col.html">Portfolio</a></li>
-        <li><a href="login-register.html">Login & Signup</a></li>
-        <li><a href="faq-1.html">FAQ</a></li>
-        <li><a href="about-1.html">About</a></li>
-        <li><a href="service-1.html">Service</a></li>
-        <li><a href="blog-grid-3col.html">Blog</a></li>
-        <li><a href="404-error-1.html">404 Error</a></li>
-        <li><a href="shop-checkout.html">Shopping Cart</a></li>
-        <li><a href="contact-1.html">Contact Us</a></li>
-    </ul>
-</section>
-<!--End Sidemenu -->
 
 <!-- Site Wraper -->
 <div class="wrapper">
@@ -117,117 +81,143 @@
     <!-- CONTENT --------------------------------------------------------------------------------->
 
     <!-- Intro Section -->
-    <section id="intro" class="light-bg">
-
+    <section id="intro">
         <!-- Hero Slider Section -->
-        <div class="owl-carousel fullwidth-slider white o-flow-hidden">
-            <!--Slide-->
-            <div class="item bg-img slide-bg-image parallax parallax-section1" data-background-img="img/sunsetFruits/finance_bg01.png">
-                <!-- Content -->
-                <div class="full-cap-wraper light-color">
-                    <div class="content-caption light-color">
-                        <div class="container">
-                            <h1 style="size: 75px" class="h1"><b>Welcome To Sunset Fruits</b></h1>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Content -->
-            </div>
+        <div class="flexslider fullscreen-carousel hero-slider-1 ">
+            <ul class="slides">
 
-            <!--Slide-->
-            <div class="item bg-img slide-bg-image parallax parallax-section1" data-background-img="img/full/16.jpg">
-                <!-- Content -->
-                <div class="full-cap-wraper overlay-dark80 light-color">
-                    <div class="content-caption light-color">
-                        <div class="container">
-                            <h5>The Creative Agency</h5>
-                            <br />
-                            <h1 class="h1">Mazel Creative Agency</h1>
-                            <br>
-                            <div><a class="btn btn-md btn-white-line xs-hidden">Read More</a><span class="btn-space-10 xs-hidden"></span><a class="btn btn-md btn-white">Learn More</a></div>
+                <!--Slide-->
+                <li data-slide="dark-slide">
+                    <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/sunsetFruits/finance_bg01.png">
+                        <div class="js-Slide-fullscreen-height container">
+                            <div class="intro-content">
+                                <div class="intro-content-inner">
+                                    <h1 class="h1"><b>Welcome To Sunset Fruits</b></h1>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- End Content -->
-            </div>
+                </li>
 
-            <!--Slide-->
-            <div class="item bg-img slide-bg-image parallax parallax-section1" data-background-img="img/full/23.jpg">
-                <!-- Content -->
-                <div class="full-cap-wraper overlay-dark80 light-color">
-                    <div class="content-caption light-color">
-                        <div class="container">
-                            <h5>The Digitel Studio</h5>
-                            <br />
-                            <h1 class="h1">One & Mutlipage Theme</h1>
-                            <br>
-                            <div><a class="btn btn-md btn-white-line xs-hidden">Read More</a><span class="btn-space-10 xs-hidden"></span><a class="btn btn-md btn-white">Learn More</a></div>
+                <!--Slide-->
+                <li data-slide="dark-slide">
+                    <div class="slide-bg-image overlay-light parallax parallax-section1" data-background-img="img/sunsetFruits/finance_bg03.jpg">
+                        <div class="js-Slide-fullscreen-height container">
+                            <div class="intro-content">
+                                <div class="intro-content-inner">
+                                    <h1 class="h1"><b>Our quality starts from the preparation of our floors</b></h1>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- End Content -->
-            </div>
+                </li>
+
+                <!--Slide-->
+                <li data-slide="dark-slide">
+                    <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/sunsetFruits/finance-bg04.png">
+                        <div class="js-Slide-fullscreen-height container">
+                            <div class="intro-content">
+                                <div class="intro-content-inner">
+                                    <h1 class="h1"><b>We are committed to providing the highest quality organic products in the world</b></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
         </div>
         <!-- End Hero Slider Section -->
     </section>
-    <!-- End Intro Section -->
-
     <div class="clearfix"></div>
+    <!-- End Intro Section -->
 
     <!--About Section-->
     <section id="about" class="wow fadeIn ptb ptb-sm-80">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 offset-md-2">
-                    <h3 class="h4">About Studio</h3>
+                    <h3 class="h4" style="color: #e6ae49;"><b>About</b></h3>
                     <div class="spacer-15"></div>
-                    <p class="lead">Integer tincidunt Cras dapibus. <a class="tipped" data-title="Sample Text" data-tipper-options='{"direction":"top"}'><b>Vivamus elementum</b></a> ultricies nisi vel augue. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante dapibus.</p>
+                    <p class="lead"><a class="tipped" data-title="Sunset Fruits Premium Quality" data-tipper-options='{"direction":"top"}'><b>Sunset Fruits</b></a> Taking advantage of its geographical position in the country for this item, it has managed to maintain its position in the market with the highest demand for banana quality, worldwide. Committed always with our producers, clients and the community, developing social and environmental projects.</p>
                 </div>
-            </div>
-            <div class="row mt-80">
-                <!-- Welcome Content -->
-                <div class="col-md-7 mb-30">
-                    <h4>WE`RE CREATIVE.</h4>
-                    <div class="spacer-15"></div>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur?</p>
-                    <div class="spacer-15"></div>
-                    <a class="btn-link-a">More About</a>
-                </div>
-                <!-- End Welcome Content -->
-
-                <!-- Skills -->
-                <div class="col-md-5">
-                    <div class="skillbar" data-percent="55%">
-                        <div class="skillbar-title">Web design</div>
-                        <div class="skill-bar-percent">55%</div>
-                        <div class="skillbar-bar"></div>
-                    </div>
-
-                    <div class="skillbar" data-percent="80%">
-                        <div class="skillbar-title">development</div>
-                        <div class="skill-bar-percent">80%</div>
-                        <div class="skillbar-bar"></div>
-                    </div>
-
-                    <div class="skillbar" data-percent="40%">
-                        <div class="skillbar-title">Photography</div>
-                        <div class="skill-bar-percent">40%</div>
-                        <div class="skillbar-bar"></div>
-                    </div>
-
-                    <div class="skillbar" data-percent="70%">
-                        <div class="skillbar-title">branding</div>
-                        <div class="skill-bar-percent">70%</div>
-                        <div class="skillbar-bar"></div>
-                    </div>
-                </div>
-                <!-- End Skills -->
             </div>
         </div>
     </section>
     <!-- End About Section-->
     <hr />
+
+    <!-- Products Section -->
+    <section id="products" class="overlay-dark80 ptb-80" style="background-image: url('/img/sunsetFruits/bg-2.jpg');" data-stellar-background-ratio="0.5">
+        <div class="container text-center">
+            <h3 class="h4" style="color: #e6ae49"><b>Products</b></h3>
+            <div class="spacer-15"></div>
+            <p class="lead light-color"><b>Our products are endorsed by certifications such as:</b></p>
+            <p class="lead light-color">Organic EU, Organic USDA, Global G.A.P and Fairtrade; complying with the standards and methods governed by these organizations, with the aim of delivering trust and quality to our customers.</p>
+
+
+        </div>
+    </section>
+    <!-- End Products Section -->
+
+
+    <!-- Team -->
+    <!-- Contant Slider Section -->
+    <section id="contant" class="wow fadeIn ptb ptb-sm-80">
+        <div class="owl-carousel content-carousel content-slider">
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mb-sm-30">
+                            <img src="img/sunsetFruits/img-12.jpg" alt="" />
+                        </div>
+                        <div class="col-md-5 mb-sm-30 lead">
+                            <h3>Working every day to get a better product</h3>
+                            <div class="spacer-15"></div>
+                            <p>Our team is committed each to give all their effort, together we achieve a better future.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 mb-sm-30">
+                            <h3>Sunset Fruits premium quality</h3>
+                            <div class="spacer-15"></div>
+                            <p>We select only the best plantations so that you are as satisfied as we are.</p>
+                        </div>
+                        <div class="col-md-6 offset-md-1">
+                            <img src="img/sunsetFruits/img-15.png" alt="" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mb-sm-30">
+                            <img src="img/sunsetFruits/img-14.jpg" alt="" />
+                        </div>
+                        <div class="col-md-5 offset-md-1">
+                            <h3>Workshop Logistic Services</h3>
+                            <div class="spacer-15"></div>
+                            <p>Looking for a better logistics so that our product is present anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Contain Slider Section -->
+
+
+    <!-- End Team -->
+
+
     <!-- Service Section -->
     <section id="service" class="ptb ptb-sm-80">
         <div class="wow fadeInLeft container text-center">
