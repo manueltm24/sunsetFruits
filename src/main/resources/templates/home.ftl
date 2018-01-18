@@ -105,7 +105,7 @@
                         <div class="js-Slide-fullscreen-height container">
                             <div class="intro-content">
                                 <div class="intro-content-inner">
-                                    <h1 class="h1"><b>Our quality starts from the preparation of our floors</b></h1>
+                                    <h1 class="h1"><b>Our quality starts from the preparation of our ground</b></h1>
                                 </div>
                             </div>
                         </div>
@@ -186,10 +186,10 @@
                         <div class="col-md-5 mb-sm-30">
                             <h3>Sunset Fruits premium quality</h3>
                             <div class="spacer-15"></div>
-                            <p>We select only the best plantations so that you are as satisfied as we are.</p>
+                            <p>We select only the best bananas so that you are as satisfied as we are.</p>
                         </div>
                         <div class="col-md-6 offset-md-1">
-                            <img src="img/sunsetFruits/img-15.png" alt="" />
+                            <img src="img/sunsetFruits/im2.jpg" alt="" />
                         </div>
 
                     </div>
@@ -202,9 +202,9 @@
                             <img src="img/sunsetFruits/img-14.jpg" alt="" />
                         </div>
                         <div class="col-md-5 offset-md-1">
-                            <h3>Workshop Logistic Services</h3>
+                            <h3>Improving our skills in export terms</h3>
                             <div class="spacer-15"></div>
-                            <p>Looking for a better logistics so that our product is present anywhere.</p>
+                            <p>LSeeking better options for our clients anytime anywhere.</p>
                         </div>
                     </div>
                 </div>
@@ -242,13 +242,13 @@
                     <h1 class="counter" data-count="520">0</h1>
                     <h6>CONTAINERS PER YEAR</h6>
                 </div>
-                <div class="col-md-3 mb-sm-30">
-                    <img src="/img/sunsetFruits/group.png"/><br>
-                    <div class="spacer-30"></div>
-                    <i class="fa fa-plus"></i>
-                    <h1 class="counter" data-count="9000">0</h1>
-                    <h6>THOUSANDS OF SATISFIED CUSTOMERS</h6>
-                </div>
+                <#--<div class="col-md-3 mb-sm-30">-->
+                    <#--<img src="/img/sunsetFruits/group.png"/><br>-->
+                    <#--<div class="spacer-30"></div>-->
+                    <#--<i class="fa fa-plus"></i>-->
+                    <#--<h1 class="counter" data-count="9000">0</h1>-->
+                    <#--<h6>THOUSANDS OF SATISFIED CUSTOMERS</h6>-->
+                <#--</div>-->
 
             </div>
         </div>
@@ -261,7 +261,7 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2 text-center">
                     <h3 style="color: #e6ae49"><b>Get In Touch</b></h3>
-                    <p class="lead">Visit us and discover for yourself premium quality of our products.</p>
+                    <p class="lead">Visit us and discover for yourself the premium quality of our products.</p>
                     <div class="spacer-25"></div>
                     <div style="font-size: xx-large" class="contact-icon-center"><i class="ion ion-ios-clock"></i></div>
                     <h6>Business Hours</h6>
@@ -381,7 +381,7 @@
 
 <script>
     function initMap() {
-        var uluru = {lat: 19.846693, lng: -71.649539};
+        var uluru = {lat: 19.618742, lng: -71.259452};
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 13,
             center: uluru
