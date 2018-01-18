@@ -22,7 +22,7 @@
     <link href="css/plugin/sidebar-menu.css" rel="stylesheet" type="text/css" />
     <link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
     <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
-
+    <link href="css/plugin/YTPlayer.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -60,7 +60,7 @@
             <div class="nav-menu">
                 <ul class="nav-menu-inner">
                     <li>
-                        <a class="menu-has-sub active" href="/">Home</a>
+                        <a class="menu-has-sub active" href="/"><b>Home</b></a>
                     </li>
                     <li>
                         <a class="menu-has-sub" href="#">About</a>
@@ -81,56 +81,80 @@
     <!-- CONTENT --------------------------------------------------------------------------------->
 
     <!-- Intro Section -->
-    <section id="intro">
-        <!-- Hero Slider Section -->
-        <div class="flexslider fullscreen-carousel hero-slider-1 ">
-            <ul class="slides">
-
-                <!--Slide-->
-                <li data-slide="dark-slide">
-                    <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/sunsetFruits/finance_bg01.png">
-                        <div class="js-Slide-fullscreen-height container">
-                            <div class="intro-content">
-                                <div class="intro-content-inner">
-                                    <h1 class="h1"><b>Welcome To Sunset Fruits</b></h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                <!--Slide-->
-                <li data-slide="dark-slide">
-                    <div class="slide-bg-image overlay-light parallax parallax-section1" data-background-img="img/sunsetFruits/finance_bg03.jpg">
-                        <div class="js-Slide-fullscreen-height container">
-                            <div class="intro-content">
-                                <div class="intro-content-inner">
-                                    <h1 class="h1"><b>Our quality starts from the preparation of our soil</b></h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                <!--Slide-->
-                <li data-slide="dark-slide">
-                    <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/sunsetFruits/finance-bg04.png">
-                        <div class="js-Slide-fullscreen-height container">
-                            <div class="intro-content">
-                                <div class="intro-content-inner">
-                                    <h1 class="h1"><b>We are committed to providing the highest quality organic products in the world</b></h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-            </ul>
+    <section id="intro" class="intro bg-image js-fullscreen-height dark-bg" data-background-img="img/sunsetFruits/finance_bg01.png">
+        <!-- Intro Video Section -->
+        <div class="intro-media-wraper overlay-dark40">
+            <!-- youtube Video -->
+            <div id="video" class="ytp-player" data-property="{videoURL:'https://youtu.be/1p3u-tTAX0g',containment:'#intro', showControls:true, autoPlay:true, loop:true, mute:true, startAt:6, opacity:1, addRaster:false, quality:'default'}"></div>
+            <!-- End youtube Video -->
         </div>
-        <!-- End Hero Slider Section -->
+        <!-- End Intro Video Section -->
+        <!-- Caption Section -->
+        <div class="js-fullscreen-height intro-caption-top container">
+            <div class="intro-content">
+                <div class="intro-content-inner">
+                    <h1 class="h1"><b>Welcome To Sunset Fruits</b></h1>
+                </div>
+            </div>
+        </div>
+        <!-- End Caption Section -->
+
     </section>
-    <div class="clearfix"></div>
     <!-- End Intro Section -->
+
+    <div class="clearfix"></div>
+
+    <#--<!-- Intro Section &ndash;&gt;-->
+    <#--<section id="intro">-->
+        <#--<!-- Hero Slider Section &ndash;&gt;-->
+        <#--<div class="flexslider fullscreen-carousel hero-slider-1 ">-->
+            <#--<ul class="slides">-->
+
+                <#--<!--Slide&ndash;&gt;-->
+                <#--<li data-slide="dark-slide">-->
+                    <#--<div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/sunsetFruits/finance_bg01.png">-->
+                        <#--<div class="js-Slide-fullscreen-height container">-->
+                            <#--<div class="intro-content">-->
+                                <#--<div class="intro-content-inner">-->
+                                    <#--<h1 class="h1"><b>Welcome To Sunset Fruits</b></h1>-->
+                                <#--</div>-->
+                            <#--</div>-->
+                        <#--</div>-->
+                    <#--</div>-->
+                <#--</li>-->
+
+                <#--<!--Slide&ndash;&gt;-->
+                <#--<li data-slide="dark-slide">-->
+                    <#--<div class="slide-bg-image overlay-light parallax parallax-section1" data-background-img="img/sunsetFruits/finance_bg03.jpg">-->
+                        <#--<div class="js-Slide-fullscreen-height container">-->
+                            <#--<div class="intro-content">-->
+                                <#--<div class="intro-content-inner">-->
+                                    <#--<h1 class="h1"><b>Our quality starts from the preparation of our soil</b></h1>-->
+                                <#--</div>-->
+                            <#--</div>-->
+                        <#--</div>-->
+                    <#--</div>-->
+                <#--</li>-->
+
+                <#--<!--Slide&ndash;&gt;-->
+                <#--<li data-slide="dark-slide">-->
+                    <#--<div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/sunsetFruits/finance-bg04.png">-->
+                        <#--<div class="js-Slide-fullscreen-height container">-->
+                            <#--<div class="intro-content">-->
+                                <#--<div class="intro-content-inner">-->
+                                    <#--<h1 class="h1"><b>We are committed to providing the highest quality organic products in the world</b></h1>-->
+                                <#--</div>-->
+                            <#--</div>-->
+                        <#--</div>-->
+                    <#--</div>-->
+                <#--</li>-->
+
+            <#--</ul>-->
+        <#--</div>-->
+        <#--<!-- End Hero Slider Section &ndash;&gt;-->
+    <#--</section>-->
+    <#--<div class="clearfix"></div>-->
+    <#--<!-- End Intro Section &ndash;&gt;-->
 
     <!--About Section-->
     <section id="about" class="wow fadeIn ptb ptb-sm-80">
@@ -221,33 +245,40 @@
     <section id="counter" class="overlay-dark80 yellowSunsetFruits-color ptb-80" style="background-image: url(&quot;img/sunsetFruits/finance_bg03.jpg&quot;); background-position: 0% -159px;" data-stellar-background-ratio="0.5">
         <div class="container text-center">
             <div class="row">
-                <div class="col-md-3 mb-sm-30">
-                    <img src="/img/sunsetFruits/banana.png"/><br>
-                    <div class="spacer-30"></div>
-                    <i class="fa fa-plus"></i>
-                    <h1 class="counter" data-count="15000">0</h1>
-                    <h6>BOXES OF BANANAS EXPORTED FOR WEEKS</h6>
-                </div>
-                <div class="col-md-3 mb-sm-30">
-                    <img src="/img/sunsetFruits/plant.png"/><br>
-                    <div class="spacer-30"></div>
-                    <i class="fa fa-plus"></i>
-                    <h1 class="counter" data-count="750">0</h1>
-                    <h6>HECTARIES PLANTED WITH BANANA PLANTS</h6>
-                </div>
-                <div class="col-md-3 mb-sm-30">
-                    <img src="/img/sunsetFruits/truck.png"/><br>
-                    <div class="spacer-30"></div>
-                    <i class="fa fa-plus"></i>
-                    <h1 class="counter" data-count="520">0</h1>
-                    <h6>CONTAINERS PER YEAR</h6>
-                </div>
-                <#--<div class="col-md-3 mb-sm-30">-->
-                    <#--<img src="/img/sunsetFruits/group.png"/><br>-->
-                    <#--<div class="spacer-30"></div>-->
-                    <#--<i class="fa fa-plus"></i>-->
-                    <#--<h1 class="counter" data-count="9000">0</h1>-->
-                    <#--<h6>THOUSANDS OF SATISFIED CUSTOMERS</h6>-->
+
+                    <div class="col-md-5 mb-sm-30">
+                        <img src="/img/sunsetFruits/banana.png"/><br>
+                        <div class="spacer-30"></div>
+                        <i class="fa fa-plus"></i>
+                        <h1 class="counter" data-count="15000">0</h1>
+                        <h6>BOXES OF BANANAS EXPORTED FOR WEEKS</h6>
+                    </div>
+                    <div class="col-md-3 mb-sm-30">
+                        <img src="/img/sunsetFruits/plant.png"/><br>
+                        <div class="spacer-30"></div>
+                        <i class="fa fa-plus"></i>
+                        <h1 class="counter" data-count="750">0</h1>
+                        <h6>HECTARIES PLANTED WITH BANANA PLANTS</h6>
+                    </div>
+                    <div class="col-md-3 mb-sm-30">
+                        <img src="/img/sunsetFruits/truck.png"/><br>
+                        <div class="spacer-30"></div>
+                        <i class="fa fa-plus"></i>
+                        <h1 class="counter" data-count="520">0</h1>
+                        <h6>CONTAINERS PER YEAR</h6>
+                    </div>
+                    <#--<div class="col-md-3 mb-sm-30">-->
+                        <#--<img src="/img/sunsetFruits/group.png"/><br>-->
+                        <#--<div class="spacer-30"></div>-->
+                        <#--<i class="fa fa-plus"></i>-->
+                        <#--<h1 class="counter" data-count="9000">0</h1>-->
+                        <#--<h6>THOUSANDS OF SATISFIED CUSTOMERS</h6>-->
+                    <#--</div>-->
+                <!-- Youtube Player -->
+                <#--<div class="col-md-8 offset-md-2">-->
+                    <#--<div class="post-media">-->
+                        <#--<iframe src="https://www.youtube.com/embed/1p3u-tTAX0g" frameborder="3h" allowfullscreen></iframe>-->
+                    <#--</div>-->
                 <#--</div>-->
 
             </div>
@@ -378,6 +409,7 @@
 <script src="js/plugin/mediaelement-and-player.min.js"></script>
 <script src="js/theme.js" type="text/javascript"></script>
 <script src="js/navigation.js" type="text/javascript"></script>
+<script src="js/plugin/jquery.mb.YTPlayer.min.js"></script>
 
 <script>
     function initMap() {
