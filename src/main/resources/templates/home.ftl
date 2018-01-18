@@ -105,7 +105,7 @@
                         <div class="js-Slide-fullscreen-height container">
                             <div class="intro-content">
                                 <div class="intro-content-inner">
-                                    <h1 class="h1"><b>Our quality starts from the preparation of our ground</b></h1>
+                                    <h1 class="h1"><b>Our quality starts from the preparation of our soil</b></h1>
                                 </div>
                             </div>
                         </div>
@@ -204,7 +204,7 @@
                         <div class="col-md-5 offset-md-1">
                             <h3>Improving our skills in export terms</h3>
                             <div class="spacer-15"></div>
-                            <p>LSeeking better options for our clients anytime anywhere.</p>
+                            <p>Seeking better options for our clients anytime anywhere.</p>
                         </div>
                     </div>
                 </div>
@@ -332,9 +332,9 @@
         <hr />
 
         <!-- Copyright Bar -->
-        <section class="copyright ptb-60">
+        <section style="background-color: #e6ae49 " class="copyright ptb-60">
             <div class="container">
-                <p class="">
+                <p style="color: white">
                     Copyright © 2017
                     <a><b>Sunset Fruits.</b></a>. All Rights Reserved.
                     <br />
