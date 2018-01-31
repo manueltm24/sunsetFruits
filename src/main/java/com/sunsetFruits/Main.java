@@ -45,5 +45,26 @@ public class Main {
 
             return new ModelAndView(null, "/home.ftl");
         }, freeMarkerEngine);
+
+        get("/aboutus", (request, response) -> {
+            Map<String, Object> attributes = new HashMap<>();
+
+
+            return new ModelAndView(null, "/aboutUs.ftl");
+        }, freeMarkerEngine);
+
+        get("/products", (request, response) -> {
+            Map<String, Object> attributes = new HashMap<>();
+
+
+            return new ModelAndView(null, "/products.ftl");
+        }, freeMarkerEngine);
+
+        get("/error", (request, response) -> {
+            Map<String, Object> attributes = new HashMap<>();
+
+
+            return new ModelAndView(null, "/error404_contruction.ftl");
+        }, freeMarkerEngine);
     }
 }
