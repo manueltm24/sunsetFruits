@@ -183,8 +183,9 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 offset-md-2">
-                    <h3 class="h4" style="color: #e6ae49;"><b>About</b></h3>
+                    <h3 class="h4" style="color: #e6ae49;"><b>About Us</b></h3>
                     <div class="spacer-15"></div>
+                    <img src="img_sunsetFruits/logoSunsetFruitsFooter.png"/><br>
                     <p class="lead"><a class="tipped" data-title="Sunset Fruits Premium Quality" data-tipper-options='{"direction":"top"}'><b>Sunset Fruits</b></a> Taking advantage of its geographical position in the country for this item, it has managed to maintain its position in the market with the highest demand for banana quality, worldwide. Committed always with our producers, clients and the community, developing social and environmental projects.</p>
                 </div>
             </div>
@@ -483,7 +484,7 @@
                     <a class="cbox-iframe" href="http://www.youtube.com/embed/1p3u-tTAX0g?rel=0&amp;wmode=transparent">
                         <div class="page-icon-top"><i class="ion ion-ios-film-outline"></i></div>
                     </a>
-                <#--<h4>Pellentesque eu pretium quis adipiscing sem neque sem Nulla consequat massa quis enim?</h4>-->
+                    <h4>Know us and discover that we are the leading banana company</h4>
                     <div class="spacer-15"></div>
                     <a class="cbox-iframe btn btn-md btn-white" href="http://www.youtube.com/embed/1p3u-tTAX0g?rel=0&amp;wmode=transparent">Watch Our Video</a>
                 </div>
@@ -572,7 +573,7 @@
         <section style="background-color: #e6ae49 " class="copyright ptb-60">
             <div class="container">
                 <p style="color: white">
-                    Copyright © 2017
+                    Copyright &copy; 2017
                     <a><b>Sunset Fruits.</b></a>. All Rights Reserved.
                     <br />
                 </p>
