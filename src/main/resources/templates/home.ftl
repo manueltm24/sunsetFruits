@@ -516,11 +516,11 @@
     </section>
     <!-- Contact Section -->
 
-    <!-- Map Section -->
-    <section class="map">
-        <div id="map"></div>
-    </section>
-    <!-- Map Section -->
+    <#--<!-- Map Section &ndash;&gt;-->
+    <#--<section class="map">-->
+        <#--<div id="map"></div>-->
+    <#--</section>-->
+    <#--<!-- Map Section &ndash;&gt;-->
 
     <!-- FOOTER -->
     <footer class="footer pt-80" style="text-align: center;margin-left: auto;margin-right: auto">
@@ -637,7 +637,7 @@
 
 <script>
     function initMap() {
-        var uluru = {lat: 19.618742, lng: -71.259452};
+        var uluru = {lat: 19.584854125976562, lng: -71.04217529296875};
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 13,
             center: uluru
@@ -649,7 +649,7 @@
     }
 </script>
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv6AeN8DvDLvknyAw2g8V2LZyQBdlMJoU&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoWaSlfIIxkaw-ei4vd555Iw78CjpxLDg&callback=initMap">
 </script>
 
 
