@@ -53,6 +53,13 @@ public class Main {
             return new ModelAndView(null, "/aboutUs.ftl");
         }, freeMarkerEngine);
 
+        get("/certifications", (request, response) -> {
+            Map<String, Object> attributes = new HashMap<>();
+
+
+            return new ModelAndView(null, "/certifications.ftl");
+        }, freeMarkerEngine);
+
         get("/products", (request, response) -> {
             Map<String, Object> attributes = new HashMap<>();
 

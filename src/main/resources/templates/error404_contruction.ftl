@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Mazel - Multiprapose Html template</title>
+    <title>Sunset Fruits</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="nileforest">
@@ -11,7 +11,7 @@
 
     <!-- Favicone Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="/img_sunsetFruits/faviconSunsetFruits.png">
     <link rel="apple-touch-icon" href="img/favicon.png">
 
     <!-- CSS -->
@@ -22,7 +22,7 @@
     <link href="css/plugin/sidebar-menu.css" rel="stylesheet" type="text/css" />
     <link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
     <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
-
+    <link href="css/plugin/YTPlayer.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -49,8 +49,7 @@
                     <div class="intro-content-inner">
                         <h1 class="large mb-25">404 Error</h1>
                         <p class="lead content-wd650">
-                            We're sorry but the page you Looking for can not be found, because it's in the process of construction<br />
-                            Here are some other pages.
+                            The page you are trying to enter is under construction. Sorry for the inconveniences.
                         </p>
                         <br />
                         <a href="/" class="btn btn-md btn-white"><i class="fa fa-angle-left left"></i>Back To Home</a>

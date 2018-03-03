@@ -63,18 +63,18 @@
                         <a href="#" class="menu-has-sub active"><b>Home</b> <i class="fa fa-angle-down"></i></a>
                         <ul class="sub-dropdown dropdown">
                             <li><a class="nav-external" href="#about">About Us</a></li>
-                            <li><a class="nav-external" href="#">Mision and vision</a></li>
+                            <li><a class="nav-external" href="#misionvision">Mission and Vision</a></li>
                             <li><a class="nav-external" href="#work">Our Work</a></li>
                             <li><a class="nav-external" href="#contact-section">Get In Touch</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="/error"><b>Products</b></a>
+                        <a href="/products"><b>Products</b></a>
                     </li>
                     <li>
                         <a href="#" class="menu-has-sub"><b>Our Focus</b> <i class="fa fa-angle-down"></i></a>
                         <ul class="sub-dropdown dropdown">
-                            <li><a class="nav-external" href="/error">Certifications</a></li>
+                            <li><a class="nav-external" href="/certifications">Certifications</a></li>
                             <li><a class="nav-external" href="/error">Our Farms</a></li>
                             <li><a class="nav-external" href="/error">Were we go</a></li>
                         </ul>
@@ -87,10 +87,10 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><b>Meet the Team</b></a>
+                        <a href="/error"><b>Meet the Team</b></a>
                     </li>
                     <li>
-                        <a class="menu-has-sub" href="/error"><b>Contact</b></a>
+                        <a href="/error"><b>Contact</b></a>
                     </li>
                 </ul>
             </div>
@@ -194,6 +194,27 @@
     <!-- End About Section-->
     <hr />
 
+    <!--About Section-->
+    <section id="misionvision" class="wow fadeIn ptb ptb-sm-80" >
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3 class="h4" style="color: #e6ae49;"><b>Mission and Vision</b></h3>
+                    <div class="spacer-15"></div>
+                    <#--<img src="img_sunsetFruits/logoSunsetFruitsFooter.png"/><br>-->
+                    <p class="lead"><a class="tipped" data-title="Mission" data-tipper-options='{"direction":"top"}'><b>Mission: </b></a>
+                        Offer a quality service throughout the process, from production to fruit commercialization, adapting to the needs of each client. In the same way, involve our employees working as a team to achieve excellence.
+                    </p>
+                    <p class="lead"><a class="tipped" data-title="Vision" data-tipper-options='{"direction":"top"}'><b>Vision: </b></a>
+                        Grow in our presence at international and national level through innovation, continuous improvement and the generation of value to our stakeholders.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section-->
+    <hr />
+
     <!-- Products Section -->
     <#--<section id="products" class="overlay-dark80 ptb-80" style="background-image: url('/img_sunsetFruits/bg-2.jpg');" data-stellar-background-ratio="0.5">-->
         <#--<div class="container text-center">-->
@@ -275,29 +296,29 @@
                         <img src="/img_sunsetFruits/box.png"/><br>
                         <div class="spacer-30"></div>
                         <i style="color: #e6ae49;" class="fa fa-plus"></i>
-                        <h1 class="counter" data-count="15000">0</h1>
+                        <h1 class="counter" data-count="9000">0</h1>
                         <h6>BOXES OF BANANAS EXPORTED FOR WEEKS</h6>
                     </div>
                     <div class="col-md-3 mb-sm-30">
                         <img src="/img_sunsetFruits/plant.png"/><br>
                         <div class="spacer-30"></div>
                         <i style="color: #e6ae49;" class="fa fa-plus"></i>
-                        <h1 class="counter" data-count="750">0</h1>
+                        <h1 class="counter" data-count="300">0</h1>
                         <h6>HECTARIES PLANTED WITH BANANA PLANTS</h6>
                     </div>
                     <div class="col-md-3 mb-sm-30">
                         <img src="/img_sunsetFruits/truck.png"/><br>
                         <div class="spacer-30"></div>
                         <i style="color: #e6ae49;" class="fa fa-plus"></i>
-                        <h1 class="counter" data-count="520">0</h1>
+                        <h1 class="counter" data-count="400">0</h1>
                         <h6>CONTAINERS PER YEAR</h6>
                     </div>
                     <div class="col-md-3 mb-sm-30">
                         <img src="/img_sunsetFruits/banana.png"/><br>
                         <div class="spacer-30"></div>
                         <i style="color: #e6ae49;" class="fa fa-plus"></i>
-                        <h1 class="counter" data-count="520">0</h1>
-                        <h6>BANANAS KILOGRAMS</h6>
+                        <h1 class="counter" data-count="3800">0</h1>
+                        <h6>BANANAS TONS PER YEAR</h6>
                     </div>
                     <#--<div class="col-md-3 mb-sm-30">-->
                         <#--<img src="/img/sunsetFruits/group.png"/><br>-->
@@ -342,12 +363,12 @@
                     <div class="item-box">
                         <a class="cbox-gallary1" href="img_sunsetFruits/img-1.jpg" title="Consequat massa quis">
                             <img class="item-container" src="img_sunsetFruits/img-1.jpg" alt="1" />
-                            <div class="item-mask">
-                                <div class="item-caption">
-                                    <h5 class="white">Consequat massa quis</h5>
-                                    <p class="white">Branding, Design, Coffee</p>
-                                </div>
-                            </div>
+                            <#--<div class="item-mask">-->
+                                <#--<div class="item-caption">-->
+                                    <#--<h5 class="white">Consequat massa quis</h5>-->
+                                    <#--<p class="white">Branding, Design, Coffee</p>-->
+                                <#--</div>-->
+                            <#--</div>-->
                         </a>
                     </div>
                 </div>
@@ -356,12 +377,12 @@
                     <div class="item-box">
                         <a class="cbox-gallary1" href="img_sunsetFruits/im2.jpg" title="Vivamus elementum semper">
                             <img class="item-container" src="img_sunsetFruits/im2.jpg" alt="2" />
-                            <div class="item-mask">
-                                <div class="item-caption">
-                                    <h5 class="white">Vivamus elementum semper</h5>
-                                    <p class="white">Photo</p>
-                                </div>
-                            </div>
+                            <#--<div class="item-mask">-->
+                                <#--<div class="item-caption">-->
+                                    <#--<h5 class="white">Vivamus elementum semper</h5>-->
+                                    <#--<p class="white">Photo</p>-->
+                                <#--</div>-->
+                            <#--</div>-->
                         </a>
                     </div>
                 </div>
@@ -370,12 +391,12 @@
                     <div class="item-box">
                         <a class="cbox-gallary1" href="img_sunsetFruits/img-12.jpg" title="Quisque rutrum">
                             <img class="item-container" src="img_sunsetFruits/img-12.jpg" alt="4" />
-                            <div class="item-mask">
-                                <div class="item-caption">
-                                    <h5 class="white">Quisque rutrum</h5>
-                                    <p class="white">Branding, Design, Coffee</p>
-                                </div>
-                            </div>
+                            <#--<div class="item-mask">-->
+                                <#--<div class="item-caption">-->
+                                    <#--<h5 class="white">Quisque rutrum</h5>-->
+                                    <#--<p class="white">Branding, Design, Coffee</p>-->
+                                <#--</div>-->
+                            <#--</div>-->
                         </a>
                     </div>
                 </div>
@@ -384,12 +405,12 @@
                     <div class="item-box">
                         <a class="cbox-gallary1" href="img_sunsetFruits/img-14.jpg" title="Tellus eget condimentum">
                             <img class="item-container" src="img_sunsetFruits/img-14.jpg" alt="4" />
-                            <div class="item-mask">
-                                <div class="item-caption">
-                                    <h5 class="white">Tellus eget condimentum</h5>
-                                    <p class="white">Design</p>
-                                </div>
-                            </div>
+                            <#--<div class="item-mask">-->
+                                <#--<div class="item-caption">-->
+                                    <#--<h5 class="white">Tellus eget condimentum</h5>-->
+                                    <#--<p class="white">Design</p>-->
+                                <#--</div>-->
+                            <#--</div>-->
                         </a>
                     </div>
                 </div>
@@ -398,12 +419,12 @@
                     <div class="item-box">
                         <a class="cbox-gallary1" href="img_sunsetFruits/img-19.jpg" title="Nullam quis ant">
                             <img class="item-container" src="img_sunsetFruits/img-19.jpg" alt="5" />
-                            <div class="item-mask">
-                                <div class="item-caption">
-                                    <h5 class="white">Nullam quis ant</h5>
-                                    <p class="white">Branding, Design</p>
-                                </div>
-                            </div>
+                            <#--<div class="item-mask">-->
+                                <#--<div class="item-caption">-->
+                                    <#--<h5 class="white">Nullam quis ant</h5>-->
+                                    <#--<p class="white">Branding, Design</p>-->
+                                <#--</div>-->
+                            <#--</div>-->
                         </a>
                     </div>
                 </div>
@@ -412,12 +433,12 @@
                     <div class="item-box">
                         <a class="cbox-gallary1" href="img_sunsetFruits/img-15.png" title="Sed fringilla mauris">
                             <img class="item-container" src="img_sunsetFruits/img-15.png" alt="6" />
-                            <div class="item-mask">
-                                <div class="item-caption">
-                                    <h5 class="white">Sed fringilla mauris</h5>
-                                    <p class="white">Photo</p>
-                                </div>
-                            </div>
+                            <#--<div class="item-mask">-->
+                                <#--<div class="item-caption">-->
+                                    <#--<h5 class="white">Sed fringilla mauris</h5>-->
+                                    <#--<p class="white">Photo</p>-->
+                                <#--</div>-->
+                            <#--</div>-->
                         </a>
                     </div>
                 </div>
@@ -543,8 +564,7 @@
                 <div class="col-md-3 col-sm-10 mb-sm-30 mb-xs-0">
                     <ul class="link">
                         <li><a href="/">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Products</a></li>
+                        <li><a href="/products">Products</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -552,8 +572,8 @@
 
                 <div class="col-md-3 col-sm-12">
 
-                    <p><i style="font-size: 15px" class="ion ion-ios-location"></i>   Mao-Guayabín Km. 20, Apto. 1 Cana Chapetón
-                        Rio Viejo, Monte Cristi, República Dominicana.</p>
+                    <p><i style="font-size: 15px" class="ion ion-ios-location"></i>   Mao-Guayabin Km. 20, Apto. 1 Cana Chapeton
+                        Rio Viejo, Monte Cristi, Republica Dominicana.</p>
                     <ul class="link-small">
                         <li><a href="mailto:"><i class="fa fa-envelope-o left"></i>info@sunsetfruits.com</a></li>
                         <li><a><i class="fa fa-phone left"></i>+1 (809)-755-5511</a></li>
