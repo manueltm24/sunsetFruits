@@ -184,7 +184,7 @@
                     <div class="text-center">
 
                         <img style="width: 150px "src="img_sunsetFruits/img-22.png"/><br>
-                    </div>  was
+                    </div>
                     <div class="spacer-15"></div>
                     <p class="lead text-justify"><a class="tipped" data-title="Organic USDA Certification" data-tipper-options='{"direction":"top"}'>
                         Organic is a labeling term that indicates that the food or other agricultural product has been produced through approved methods. The organic standards describe the specific requirements that must be verified by a USDA-accredited certifying agent before products can be labeled USDA organic. Overall, organic operations must demonstrate that they are protecting natural resources, conserving biodiversity, and using only approved substances. The organic standards are captured in the Organic Food Production Act, USDA organic regulations, and the National Organic Program Handbook.
