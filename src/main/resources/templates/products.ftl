@@ -197,12 +197,12 @@
                     <div class="item-box">
                         <a href="portfolio-single3.html">
                             <img alt="1" src="img_sunsetFruits/bg-2.jpg" class="item-container">
-                            <div class="item-mask">
-                                <div class="item-caption">
-                                    <h5 class="white">A small river named</h5>
-                                    <p class="white">Branding</p>
-                                </div>
-                            </div>
+                            <#--<div class="item-mask">-->
+                                <#--<div class="item-caption">-->
+                                    <#--<h5 class="white">A small river named</h5>-->
+                                    <#--<p class="white">Branding</p>-->
+                                <#--</div>-->
+                            <#--</div>-->
                         </a>
                     </div>
                 </div>
