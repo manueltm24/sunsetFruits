@@ -152,21 +152,26 @@
     <!-- Service Section -->
     <section id="about" class="wow fadeIn ptb ptb-sm-80">
         <div class="container">
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <img style="width: 150px" src="img_sunsetFruits/img-21.png"/><br>
+                    <div class="text-center">
+                        <img style="width: 150px" src="img_sunsetFruits/img-21.png"/><br>
+                    </div>
                     <div class="spacer-15"></div>
-                    <p class="lead"><a class="tipped" data-title="Fair Trade Certification" data-tipper-options='{"direction":"top"}'>
-                        In our continued effort to be the better banana company, ONE Banana is a certified Fairtrade trader of bananas. Fairtrade is an alternative approach to conventional trade based on fairer partnerships between producers and traders, businesses and consumers. The Fairtrade standard ensures that fair and sustainable trading practices – including transparency, fair prices, labor & environmental standards, and trading with integrity – are implemented throughout the supply chain.
-                        This type of fairer trade can be a powerful driver of poverty reduction and a promoter of sustainable development. By selling Fairtrade certified bananas, we are increasing producers’ access to markets, and contributing to improve their development. Since the Fairtrade premium is invested back into the communities and contributes to support healthcare and social projects as well as infrastructure improvements; all efforts that are core to ONE Banana’s vision and mission.
+                    <p class="lead text-justify"><a class="tipped" data-title="Fair Trade Certification" data-tipper-options='{"direction":"top"}'>
+                        In our continued effort to be the better banana company, ONE Banana is a certified Fairtrade trader of bananas. Fairtrade is an alternative approach to conventional trade based on fairer partnerships between producers and traders, businesses and consumers. The Fairtrade standard ensures that fair and sustainable trading practices including transparency, fair prices, labor & environmental standards, and trading with integrity are implemented throughout the supply chain.
+                        This type of fairer trade can be a powerful driver of poverty reduction and a promoter of sustainable development. By selling Fairtrade certified bananas, we are increasing producers&grave; access to markets, and contributing to improve their development. Since the Fairtrade premium is invested back into the communities and contributes to support healthcare and social projects as well as infrastructure improvements; all efforts that are core to ONE Banana&grave;s vision and mission.
                     </p>
                 </div>
                 <div class="spacer-25"></div>
 
                 <div class="col-md-8 offset-md-2">
-                    <img style="width: 200px "src="img_sunsetFruits/img-20.jpg"/><br>
+                    <div class="text-center">
+
+                        <img style="width: 200px "src="img_sunsetFruits/img-20.jpg"/><br>
+                    </div>
                     <div class="spacer-15"></div>
-                    <p class="lead"><a class="tipped" data-title="Global GAP Certification" data-tipper-options='{"direction":"top"}'>
+                    <p class="lead text-justify"><a class="tipped" data-title="Global GAP Certification" data-tipper-options='{"direction":"top"}'>
                         We take our commitment to the planet and environment very seriously, which is why Sunset Fruits is Rainforest Alliance , GlobalG.A.P. and SCS Sustainably Grown certified, the latter which is considered one of the most rigorous agricultural certifications to achieve. We are proud to say that 100% of our farms are certified by the Rainforest Alliance and GlobalG.A.P. We believe in implementing rigorous environmental standards around conservation and our Tier 1 SCS Sustainably Grown Certification signifies to the public that our company is acting consistently with our mission and vision.
                         These certifications:
                         Verify that products have been grown using environmentally responsible practices such as through soil and water conservation, sustainable crop production, and integrated waste management.
@@ -176,9 +181,12 @@
                 </div>
 
                 <div class="col-md-8 offset-md-2">
-                    <img style="width: 150px "src="img_sunsetFruits/img-22.png"/><br>
+                    <div class="text-center">
+
+                        <img style="width: 150px "src="img_sunsetFruits/img-22.png"/><br>
+                    </div>  was
                     <div class="spacer-15"></div>
-                    <p class="lead"><a class="tipped" data-title="Organic USDA Certification" data-tipper-options='{"direction":"top"}'>
+                    <p class="lead text-justify"><a class="tipped" data-title="Organic USDA Certification" data-tipper-options='{"direction":"top"}'>
                         Organic is a labeling term that indicates that the food or other agricultural product has been produced through approved methods. The organic standards describe the specific requirements that must be verified by a USDA-accredited certifying agent before products can be labeled USDA organic. Overall, organic operations must demonstrate that they are protecting natural resources, conserving biodiversity, and using only approved substances. The organic standards are captured in the Organic Food Production Act, USDA organic regulations, and the National Organic Program Handbook.
                     </p>
                 </div>

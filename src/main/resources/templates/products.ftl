@@ -110,7 +110,7 @@
                     <li>
                         <a href="#" class="menu-has-sub"><b>Our Focus</b> <i class="fa fa-angle-down"></i></a>
                         <ul class="sub-dropdown dropdown">
-                            <li><a class="nav-external" href="/error">Certifications</a></li>
+                            <li><a class="nav-external" href="/certifications">Certifications</a></li>
                             <li><a class="nav-external" href="/error">Our Farms</a></li>
                             <li><a class="nav-external" href="/error">Were we go</a></li>
                         </ul>
